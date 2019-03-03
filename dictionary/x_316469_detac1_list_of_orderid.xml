@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="List_of_orderID" max_length="40" name="x_316469_detac1_list_of_orderid" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="OderID" max_length="40" name="oderid" type="integer"/>
+        <element label="Schedulled" max_length="40" name="schedulled" type="boolean"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>
